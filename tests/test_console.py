@@ -20,6 +20,7 @@ from io import StringIO
 class Test_01_Basic(unittest.TestCase):
     '''Test Console Basic'''
 
+
     def setUp(self):
         self.mock_stdin = create_autospec(sys.stdin)
         self.mock_stdout = create_autospec(sys.stdout)

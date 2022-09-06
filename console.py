@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 import cmd
+from datetime import datetime
 import models
 from models.base_model import BaseModel
 from models.state import State
@@ -8,6 +9,7 @@ from models.amenity import Amenity
 from models.place import Place
 from models.review import Review
 from models.user import User
+import shlex
 """entry point for hbnb console"""
 
 
